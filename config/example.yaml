@@ -1,0 +1,14 @@
+loan_period: 30y
+loan_amount: 1000000
+interest_rate: 0.1
+start_date: 01-01-2001
+
+extra_payments:
+  - when: 10
+    payment:
+      up_to: 100000
+
+  - when:
+      from: 20
+      to: 30
+    payment: 100000
